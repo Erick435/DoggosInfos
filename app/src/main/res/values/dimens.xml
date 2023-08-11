@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="popup_menu_width">275dp</dimen>
+    <dimen name="popup_menu_height">139dp</dimen>
+    <dimen name="popup_menu_max_height">200dp</dimen>
+</resources>

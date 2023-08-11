@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Title Bar -->
+    <RelativeLayout
+        android:id="@+id/titleBar"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:background="#000000">
+
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Vote"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+    <!-- Dog Image -->
+    <ImageView
+        android:id="@+id/dogImage"
+        android:layout_width="match_parent"
+        android:layout_height="374dp"
+        android:layout_weight="3"
+        android:scaleType="centerInside"
+        android:src="@drawable/placeholder_image" />
+
+    <!-- Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/dislikeButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_red_background"
+            android:text="Dislike"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:drawablePadding="8dp"
+            android:padding="8dp"
+            android:layout_margin="8dp"/>
+
+        <Button
+            android:id="@+id/loveButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_green_background"
+            android:text="Love!"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:drawablePadding="8dp"
+            android:padding="8dp"
+            android:layout_margin="8dp" />
+
+
+    </LinearLayout>
+
+    <!-- Navigation Bar -->
+    <RelativeLayout
+        android:id="@+id/navigationBar"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="#0000FF">
+
+        <TextView
+            android:id="@+id/voteButton"
+            android:layout_width="86dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="83dp"
+            android:padding="8dp"
+            android:text="Vote"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/factsButton"
+            android:layout_width="84dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="86dp"
+            android:padding="8dp"
+            android:text="Facts"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+</LinearLayout>
