@@ -2,7 +2,7 @@
 
 Doggos Infos is a mobile app that provides information about various dog breeds. Whether you're a dog lover, a new pet owner, or just curious about different breeds, this app is designed to help you explore and learn more about our canine companions.
 
-![App Screenshots](/screenshots/Facts_1.png)
+![App Screenshots](/Screenshots/Facts_1.png)
 
 ## Features
 
@@ -21,8 +21,8 @@ Doggos Infos is a mobile app that provides information about various dog breeds.
 
 ## Screenshots
 
-![Screenshot 1](/screenshots/Main_page.png)
-![Screenshot 2](/screenshots/Facts_3.png)
+![Screenshot 1](/Screenshots/Main_page.png)
+![Screenshot 2](/Screenshots/Facts_3.png)
 
 
 **Note:** This app is developed for educational purposes and does not use real-time data. The breed information provided is for general understanding and may not reflect real-world accuracy.
